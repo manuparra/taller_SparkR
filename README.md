@@ -1,7 +1,10 @@
+# Taller de SparkR.
+<HR>
+## VIII Jornadas Usuarios de R, Albacete (España) el 17-18 de noviembre de 2016
 
 
 
-## Como instalar SparkR
+## Como instalar SparkR + extras manualmente 
 
 ```
 yum update
@@ -31,9 +34,9 @@ sh Miniconda2-latest-Linux-x86_64.sh
 #exit 
 
 
-conda install jupyter
+> conda install jupyter
 
-R
+> R
 
 install.packages(c('repr', 'IRdisplay', 'crayon', 'pbdZMQ', 'devtools'))
 devtools::install_github('IRkernel/IRkernel')
