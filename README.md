@@ -1,10 +1,8 @@
-# Taller de SparkR: Procesamiento de datos masivos con SparkR
+# Taller de "Procesamiento de datos masivos con SparkR"
 
-![Spark+R](https://sites.google.com/site/manuparra/home/SparkRlogo.png)
+![Spark+R](https://sites.google.com/site/manuparra/home/SparkRlogo.png) ![Jornadas_R_Albacete](https://sites.google.com/site/manuparra/home/jornadas_R_albacete.png)
 
 ## VIII Jornadas Usuarios de R, Albacete (España) el 17-18 de noviembre de 2016
-
-![Jornadas_R_Albacete](https://sites.google.com/site/manuparra/home/jornadas_R_albacete.png)
 
 ### Descarga de la Máquina Virtual VirtualBox: All-in-one
 
