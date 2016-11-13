@@ -3,6 +3,7 @@
 
 ## Como instalar SparkR
 
+```
 yum update
 yum install -y epel-release
 yum install -y R
@@ -25,7 +26,10 @@ curl -O https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh
 yum install -y bzip2 openssl-devel curl-devel pandoc
 sh Miniconda2-latest-Linux-x86_64.sh 
 
+
+
 #exit 
+
 
 conda install jupyter
 
@@ -35,10 +39,10 @@ install.packages(c('repr', 'IRdisplay', 'crayon', 'pbdZMQ', 'devtools'))
 devtools::install_github('IRkernel/IRkernel')
 IRkernel::installspec()  # to register the kernel in the current R installation
 
-Execute:
+#Execute:
 
 /usr/local/spark/sbin/start-all.sh
 jupyter notebook --notebook-dir=/root/TallerSparkR --no-browser --port=8888 --ip=0.0.0.0 
 
-
+```
 
