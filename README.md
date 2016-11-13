@@ -29,12 +29,18 @@ Los datos de acceso a la Máquina Virtual son:
 Tanto si te descagas la Máquina virtual, como si instalas todo manualmente, es necesario ejecutar los siguientes comandos antes de trabajar en el taller:
 
 Arrancamos el entorno de Spark:
-> /usr/local/spark/sbin/start-all.sh
+
+	/usr/local/spark/sbin/start-all.sh
+
 Arrancamos JupyterNotebook:
-> jupyter notebook --notebook-dir=/root/TallerSparkR --no-browser --port=8888 --ip=0.0.0.0
+
+	jupyter notebook --notebook-dir=/root/TallerSparkR --no-browser --port=8888 --ip=0.0.0.0
+
 Esto hará que funcione JupyterNotebooks en el puerto 8888, por lo tenemos que acceder desde nuestro navegador web a la dirección: http://localhost:8888
+
 Para cerrar todo el entorno de trabajo, cerramos JupyterNotebook y ejecutamos:
-> /usr/local/spark/sbin/stop-all.sh
+	
+	/usr/local/spark/sbin/stop-all.sh
 
 ### Instalación de SparkR + extras manualmente para CentOS 7
 
