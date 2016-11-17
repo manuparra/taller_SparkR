@@ -1,10 +1,9 @@
-Table of Contents
+Indice: Procesamiento masivo de datos con SparkR
 =================
 
--e    * [Taller de "Procesamiento masivo de datos con SparkR"](#taller-de-procesamiento-masivo-de-datos-con-sparkr)
-      * [VIII Jornadas Usuarios de R, Albacete (España) el 17-18 de noviembre de 2016](#viii-jornadas-usuarios-de-r-albacete-españa-el-17-18-de-noviembre-de-2016)
+	* [Taller de "Procesamiento masivo de datos con SparkR"](#taller-de-procesamiento-masivo-de-datos-con-sparkr)      
       * [Objetivos](#objetivos)
-      * [Contenido](#contenido)
+      * [Contenidos](#contenido)
    * [Material del taller. ¿Cómo comenzar?](#material-del-taller-cómo-comenzar)
       * [Descarga de la Máquina Virtual VirtualBox: All-in-one](#descarga-de-la-máquina-virtual-virtualbox-all-in-one)
       * [Inicio del entorno de trabajo](#inicio-del-entorno-de-trabajo)
