@@ -105,7 +105,9 @@ Arrancamos JupyterNotebook:
 
 	jupyter notebook --notebook-dir=/root/TallerSparkR --no-browser --port=8888 --ip=0.0.0.0
 
-Esto hará que funcione JupyterNotebooks en el puerto 8888, por lo tenemos que acceder desde nuestro navegador web a la dirección: http://localhost:8888
+Esto hará que funcione JupyterNotebooks en el puerto 8888. 
+
+Para acceder tenemos desde nuestro navegador usamos la dirección: http://localhost:25980
 
 Para cerrar todo el entorno de trabajo, cerramos JupyterNotebook y ejecutamos:
 	
