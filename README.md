@@ -1,4 +1,4 @@
-# Taller de "Procesamiento de datos masivos con SparkR"
+# Taller de "Procesamiento masivo de datos con SparkR"
 
 ![Spark+R](https://sites.google.com/site/manuparra/home/SparkRlogo.png)
 
@@ -11,7 +11,7 @@
 La máquina virtual para el Taller completo contiene todas las herramientas necesitas para el desarrollo del trabajo, por lo tanto es la opción más sencilla para poder empezar y ponerse manos a la obra con el taller.
 
 
-Descargar la máquina virtual del taller: https://www.dropbox.com/s/83i4cll8lgo6dzr/SparkR%3A%20Jornadas7.ova. (aprox: 2GB)
+Descargar la máquina virtual del taller: https://www.dropbox.com/s/83i4cll8lgo6dzr/SparkR%3A%20Jornadas7.ova. (aprox: 4 GB)
 
 
 Los datos de acceso a la Máquina Virtual son:
