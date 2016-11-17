@@ -1,7 +1,7 @@
 Indice: Procesamiento masivo de datos con SparkR
 =================
 
-	* [Taller de "Procesamiento masivo de datos con SparkR"](#taller-de-procesamiento-masivo-de-datos-con-sparkr)      
+   * [Taller de "Procesamiento masivo de datos con SparkR"](#taller-de-procesamiento-masivo-de-datos-con-sparkr)      
       * [Objetivos](#objetivos)
       * [Contenidos](#contenido)
    * [Material del taller. ¿Cómo comenzar?](#material-del-taller-cómo-comenzar)
