@@ -4,7 +4,7 @@ Indice: Procesamiento masivo de datos con SparkR
    * [Taller de "Procesamiento masivo de datos con SparkR"](#taller-de-procesamiento-masivo-de-datos-con-sparkr)      
       * [Objetivos](#objetivos)
       * [Contenidos](#contenido)
-   * [Material del taller. ¿Cómo comenzar?](#material-del-taller-cómo-comenzar)
+   * [Material del taller. ¿Cómo comenzar?](#material-del-taller)
       * [Descarga de la Máquina Virtual VirtualBox: All-in-one](#descarga-de-la-máquina-virtual-virtualbox-all-in-one)
       * [Inicio del entorno de trabajo](#inicio-del-entorno-de-trabajo)
       * [Instalación de SparkR   extras manualmente para CentOS 7](#instalación-de-sparkr--extras-manualmente-para-centos-7)
@@ -70,7 +70,7 @@ En el taller de procesamientos masivo de datos con SparkR se va a ver lo siguien
 * **Visualización de datos**<BR>
     Visualización con la herramienta de experimentación reproducible Zeppelin (beta)
 
-# Material del taller. ¿Cómo comenzar?
+# Material del taller
 
 ## Descarga de la Máquina Virtual VirtualBox: All-in-one
 
