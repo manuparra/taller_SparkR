@@ -1,4 +1,4 @@
-Indice: Procesamiento masivo de datos con SparkR
+# Taller de "Procesamiento masivo de datos con SparkR"
 =================
 
    * [Taller de "Procesamiento masivo de datos con SparkR"](#taller-de-procesamiento-masivo-de-datos-con-sparkr)      
@@ -12,7 +12,7 @@ Indice: Procesamiento masivo de datos con SparkR
 
 
 
-# Taller de "Procesamiento masivo de datos con SparkR"
+
 
 ![Spark+R](https://sites.google.com/site/manuparra/home/SparkRlogo.png)
 
