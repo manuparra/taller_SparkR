@@ -117,7 +117,7 @@ Los datos de acceso a la Máquina Virtual son:
 
 ## Inicio del entorno de trabajo en la Máquina Virtual
 
-Tanto si te descagas la Máquina virtual, como si instalas todo manualmente, es necesario ejecutar los siguientes comandos dentro de la Máquina Virtual antes de trabajar en el taller:
+Dentro de la Máquina Virtual es necesario ejecutar los siguientes comandos antes de trabajar en el taller:
 
 1 Arrancamos el entorno de Spark:
 
