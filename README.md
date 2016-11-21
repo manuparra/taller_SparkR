@@ -166,64 +166,23 @@ library(SparkR)
 
 ## Taller práctico.
 
-Puedes empezar el taller práctico:
-
-[Parte 2. S01. Inicio del entorno de trabajo](../../blob/master/Parte%202.%20S01.%20Inicio%20del%20entorno%20de%20trabajo%20con%20SparkR.ipynb)
-
-[Parte 2. S02. Primer ejemplo con SparkR](../../blob/master/Parte%202.%20S02.%20Primer%20ejemplo%20con%20SparkR.ipynb)
-
-[Parte 2. S03. Lectura y Escritura de datos en SparkR](../../blob/master/Parte%202.%20S03.%20Lectura%20y%20escritura%20de%20datos%20con%20SparkR.ipynb)
-
-[Parte 2. S04. Operaciones con SparkDataFrames](../../blob/master/Parte%202.%20S04.%20Operaciones%20con%20SparkDataFrames.ipynb)
-
-[Parte 2. S05. Minería de datos y Machine Learning con SparkR](../../blob/master/Parte%202.%20S05.%20Mineria%20de%20datos%20y%20Machine%20Learning%20con%20SparkR.ipynb)
-
-[Parte 2. S06. Minería de datos y Machine Learning con sparklyr](../../blob/master/Parte%202.%20S06.%20Mineria%20de%20datos%20y%20Machine%20Learning%20con%20sparklyr.ipynb)
-
-[Parte 2. S07. Visualización de datos masivos con SparkR y Zeppelin](../../blob/master/Parte%202.%20S07.%20Visualizacion%20dinamica%20de%20datos%20con%20SparkR.ipynb)
+Puedes empezar el taller práctico tanto desde Jupyter como RStudio, siguiendo los siguientes enlaces a la documentación: 
 
 
+* [Parte 2. S01. Inicio del entorno de trabajo](../../blob/master/Parte%202.%20S01.%20Inicio%20del%20entorno%20de%20trabajo%20con%20SparkR.ipynb)
+
+* [Parte 2. S02. Primer ejemplo con SparkR](../../blob/master/Parte%202.%20S02.%20Primer%20ejemplo%20con%20SparkR.ipynb)
+
+* [Parte 2. S03. Lectura y Escritura de datos en SparkR](../../blob/master/Parte%202.%20S03.%20Lectura%20y%20escritura%20de%20datos%20con%20SparkR.ipynb)
+
+* [Parte 2. S04. Operaciones con SparkDataFrames](../../blob/master/Parte%202.%20S04.%20Operaciones%20con%20SparkDataFrames.ipynb)
+
+* [Parte 2. S05. Minería de datos y Machine Learning con SparkR](../../blob/master/Parte%202.%20S05.%20Mineria%20de%20datos%20y%20Machine%20Learning%20con%20SparkR.ipynb)
+
+* [Parte 2. S06. Minería de datos y Machine Learning con sparklyr](../../blob/master/Parte%202.%20S06.%20Mineria%20de%20datos%20y%20Machine%20Learning%20con%20sparklyr.ipynb)
+
+* [Parte 2. S07. Visualización de datos masivos con SparkR y Zeppelin](../../blob/master/Parte%202.%20S07.%20Visualizacion%20dinamica%20de%20datos%20con%20SparkR.ipynb)
 
 
-## Instalación de SparkR + extras manualmente para CentOS 7
 
-```
-> yum update
-> yum install -y epel-release
-> yum install -y R
-> curl -O http://apache.rediris.es/spark/spark-2.0.1/spark-2.0.1-bin-hadoop2.7.tgz
-> tar xvfz spark-2.0.1-bin-hadoop2.7.tgz
-> mv spark-2.0.1-bin-hadoop2.7 /usr/local/spark
-> curl -O http://downloads.lightbend.com/scala/2.11.8/scala-2.11.8.tgz
-> tar xvfz scala-2.11.8.tgz
-> mv scala-2.11.8 /usr/local/scala
-
-
-> echo 'export PATH=$PATH:/usr/local/spark/bin/' >> $HOME/.bash_profile 
-> echo 'export PATH=$PATH:/usr/local/scala/bin/' >> $HOME/.bash_profile 
-> echo 'export SPARK_HOME=/usr/local/spark/' >> $HOME/.bash_profile 
-
-> source .bash_profile
-
-
-> curl -O https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh
-> yum install -y bzip2 openssl-devel curl-devel pandoc
-> sh Miniconda2-latest-Linux-x86_64.sh 
-
-#exit 
-
-> conda install jupyter
-
-> R
-
-> install.packages(c('repr', 'IRdisplay', 'crayon', 'pbdZMQ', 'devtools'))
-> devtools::install_github('IRkernel/IRkernel')
-> IRkernel::installspec()  # to register the kernel in the current R installation
-
-#Execute:
-
-> /usr/local/spark/sbin/start-all.sh
-> jupyter notebook --notebook-dir=/root/TallerSparkR --no-browser --port=8888 --ip=0.0.0.0 
-
-```
 
