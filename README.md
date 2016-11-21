@@ -56,37 +56,37 @@ Los objetivos del taller de SparkR son los siguientes:
 
 En el taller de procesamiento masivo de datos con SparkR vermos lo siguiente:
 
-1 I**ntrodu**cción al procesamiento de datos masivos.
+1.- Introducción al procesamiento de datos masivos.
     Breve introducción al procesamiento de datos, el problema de trabajar con grandes conjuntos de datos, Hadoop,Motivación de Spark, características, etc...<BR>
 
-2 **Notas sobre R, Spark y SparkR**<BR>
+2.- **Notas sobre R, Spark y SparkR**<BR>
     Introducción a R, motivación de R para datos 'pequeños' y datos 'grandes', Spark y sus características, biblioteca de SparkR para análisis de datos masivos con R.<BR>
 
-3 **Instalación de las herramientas necesarias para el taller**<BR>
+3.- **Instalación de las herramientas necesarias para el taller**<BR>
     Veremos todas las herramientas necesarias para poder trabajar con el entorno de SparkR, así como la instalación y puesta en marcha de toda la infraestructura necesaria para el taller. Inicio del entorno de trabajo habitual para trabajar en el taller.<BR>
 
-4 **Entorno de trabajo del taller**<BR>
+4.- **Entorno de trabajo del taller**<BR>
     Detalles del manejo del entorno de trabajo con JupyterNotebooks y Spark + R<BR>
 
-5 **Inicio del entorno de trabajo**<BR>
+5.- **Inicio del entorno de trabajo**<BR>
     Flujo de trabajo con Spark + R<BR>
 
-6 **Primeros pasos con SparkR**<BR>
+6.- **Primeros pasos con SparkR**<BR>
     Trabajo con ejemplos de uso de Spark + R <BR>
 
-7 **Lectura y Escritura de datos con SparkR**<BR>
+7.- **Lectura y Escritura de datos con SparkR**<BR>
     Trabajo con fuentes de datos, y tipos de conjuntos de datos, CSV, JSON, Parquet, ... Lectura y Escritura. Esquemas, y breve trabajo con SparkSQL. <BR>
 
-8 **Operaciones y procesado de SparkDataFrames**<BR>
+8.- **Operaciones y procesado de SparkDataFrames**<BR>
     Trabajamos y procesamos conjuntos de datos masivos con SparkSQL y funciones de agregación, filtrado, selección, etc. Usamos flujos de trabajo con magrittr. Revisamos la funcionalidad completa de la biblioteca de SparkR.<BR>
 
-9 **Minería de datos con la biblioteca de SparkR**<BR>
+9.- **Minería de datos con la biblioteca de SparkR**<BR>
     Aplicamos las técnicas de minería de datos y Machine Learning que proporciona SparkR: GLM, KMeans, NaiveBayes y AFT.<BR>
 
-10 **Minería de datos con la biblioteca sparklyr**<BR>
+10.- **Minería de datos con la biblioteca sparklyr**<BR>
     Utilizamos la funcionalidad de la biblioteca ``sparklyr`` para procesar conjuntos de datos. Aplicamos los métodos de minería de datos y otras operaciones.<BR>
 
-11 **Visualización de datos**<BR>
+11.- **Visualización de datos**<BR>
     Visualización de datos masivos con la herramienta Zeppelin (beta) y ``spark.ggplot2``.
 
 # Material del taller
@@ -118,14 +118,17 @@ Tanto si te descagas la Máquina virtual, como si instalas todo manualmente, es 
 
 1 Arrancamos el entorno de Spark:
 
+```
 	/usr/local/spark/sbin/start-all.sh
+```
 
 2 Arrancamos JupyterNotebook:
 
+```
 	jupyter notebook --notebook-dir=/root/TallerSparkR --no-browser --port=8888 --ip=0.0.0.0
+```
 
-
-## Entorno de trabajo:
+## Entornos de trabajo disponibles :
 
 Hay 2 entornos de trabajo disponibles para trabajar con la Máquina Virtual en SparkR.
 
@@ -133,7 +136,9 @@ Hay 2 entornos de trabajo disponibles para trabajar con la Máquina Virtual en S
 
 Para usar SparkR desde Jupyter Notebooks, accede desde tu navegador a:
 
+```
   http://localhost:25980
+```
 
 ![JupyterNotebook](https://sites.google.com/site/manuparra/home/jupyter.jpg)
 
@@ -142,7 +147,9 @@ Para usar SparkR desde Jupyter Notebooks, accede desde tu navegador a:
 
 Para usar SparkR desde RStudio, accede desde tu navegador a:
 
->   http://localhost:8787
+```
+  http://localhost:8787
+```
 
 El usuario por defecto es: ```test``` y la clave: ```test```
 
@@ -150,9 +157,12 @@ El usuario por defecto es: ```test``` y la clave: ```test```
 
 Para trabajar con SparkR desde RStudio, es necesario indicar al principio de los scripts en R:
 
->   # Biblioteca y ruta absoluta a SparkR
->   .libPaths(c(file.path("/usr/local/spark/","R/lib/"),.libPaths()))
->   library(SparkR)
+```
+# Biblioteca y ruta absoluta a SparkR
+.libPaths(c(file.path("/usr/local/spark/","R/lib/"),.libPaths()))
+library(SparkR)
+```
+
 
 ## Taller práctico.
 
