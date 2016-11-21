@@ -1,8 +1,7 @@
 # Taller de "Procesamiento masivo de datos con SparkR"
 ================
 
-* [Taller de "Procesamiento masivo de datos con SparkR"](#taller-de-procesamiento-masivo-de-datos-con-sparkr)
-    * [VIII Jornadas Usuarios de R, Albacete (España) el 17-18 de noviembre de 2016](#viii-jornadas-usuarios-de-r-albacete-españa-el-17-18-de-noviembre-de-2016)
+  * [Taller de "Procesamiento masivo de datos con SparkR"](#taller-de-procesamiento-masivo-de-datos-con-sparkr)    
     * [Imparte el taller:](#imparte-el-taller)
     * [Objetivos](#objetivos)
     * [Contenido](#contenido)
