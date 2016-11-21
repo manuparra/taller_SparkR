@@ -21,19 +21,20 @@
 ![Jornadas_R_Albacete](https://sites.google.com/site/manuparra/home/jornadas_R_albacete.png)
 
 
-<span style="font-size:2em">Imparte el taller:</span>
+## Imparte el taller:
 
 
 <img src="https://sites.google.com/site/manuparra/home/manuparra.jpg">
+
 Manuel Jesús Parra Royón
 
 PhD student. BigData time series data mining.
 
-Departamento de Ciencias de la Computación e Inteligencia Artificial.
+<a href="http://sci2s.ugr.es/">Departamento de Ciencias de la Computación e Inteligencia Artificial.</A>
 
-Distributed Computational Intelligence and Time Series Laboratory<BR>
+<a href="http://sci2s.ugr.es/dicits/">Distributed Computational Intelligence and Time Series Laboratory </A>
 
-Universidad de Granada
+<a href="http://www.ugr.es">Universidad de Granada</a>
 
 <a href="mailto:manuelparra@decsai.ugr.es">manuelparra@decsai.ugr.es</a>  
 
