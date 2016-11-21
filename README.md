@@ -56,7 +56,7 @@ Los objetivos del taller de SparkR son los siguientes:
 
 En el taller de procesamiento masivo de datos con SparkR vermos lo siguiente:
 
-1 <span style="font-weight: bold;">Introducción al procesamiento de datos masivos</span><BR>
+1 I**ntrodu**cción al procesamiento de datos masivos.
     Breve introducción al procesamiento de datos, el problema de trabajar con grandes conjuntos de datos, Hadoop,Motivación de Spark, características, etc...<BR>
 
 2 **Notas sobre R, Spark y SparkR**<BR>
