@@ -168,7 +168,7 @@ library(SparkR)
 
 Puedes empezar el taller práctico:
 
-[Inicio del entorno de trabajo](../blob/master/Parte%202.%20S01.%20Inicio%20del%20entorno%20de%20trabajo%20con%20SparkR.ipynb)
+[Inicio del entorno de trabajo](../../blob/master/Parte%202.%20S01.%20Inicio%20del%20entorno%20de%20trabajo%20con%20SparkR.ipynb)
 
 [Primer ejemplo con SparkR](../blob/master/Parte%202.%20S02.%20Primer%20ejemplo%20con%20SparkR.ipynb)
 
