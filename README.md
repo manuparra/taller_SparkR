@@ -95,23 +95,52 @@ Los datos de acceso a la Máquina Virtual son:
 
 ## Inicio del entorno de trabajo
 
-Tanto si te descagas la Máquina virtual, como si instalas todo manualmente, es necesario ejecutar los siguientes comandos antes de trabajar en el taller:
+Tanto si te descagas la Máquina virtual, como si instalas todo manualmente, es necesario ejecutar los siguientes comandos dentro de la Máquina Virtual antes de trabajar en el taller:
 
-Arrancamos el entorno de Spark:
+1 Arrancamos el entorno de Spark:
 
 	/usr/local/spark/sbin/start-all.sh
 
-Arrancamos JupyterNotebook:
+2 Arrancamos JupyterNotebook:
 
 	jupyter notebook --notebook-dir=/root/TallerSparkR --no-browser --port=8888 --ip=0.0.0.0
 
-Esto hará que funcione JupyterNotebooks en el puerto 8888. 
 
-Para acceder tenemos desde nuestro navegador usamos la dirección: http://localhost:25980
+## Entorno de trabajo:
 
-Para cerrar todo el entorno de trabajo, cerramos JupyterNotebook y ejecutamos:
-	
-	/usr/local/spark/sbin/stop-all.sh
+Hay 2 entornos de trabajo disponibles para trabajar con la Máquina Virtual en SparkR.
+
+### Jupyter
+
+Para usar SparkR desde Jupyter Notebooks, accede desde tu navegador a:
+
+  http://localhost:25980
+
+![JupyterNotebook](https://sites.google.com/site/manuparra/home/jupyter.jpg)
+
+
+### RStudio
+
+Para usar SparkR desde RStudio, accede desde tu navegador a:
+
+  http://localhost:8787
+
+El usuario por defecto es: ```test``` y la clave: ```test```
+
+![RStudio](https://sites.google.com/site/manuparra/home/rstudio.jpg)
+
+Para trabajar con SparkR desde RStudio, es necesario indicar al principio de los scripts en R:
+
+  # Biblioteca y ruta absoluta a SparkR
+  .libPaths(c(file.path("/usr/local/spark/","R/lib/"),.libPaths()))
+  library(SparkR)
+
+## Taller práctico.
+
+Puedes empezar el taller práctico:
+
+
+
 
 ## Instalación de SparkR + extras manualmente para CentOS 7
 
