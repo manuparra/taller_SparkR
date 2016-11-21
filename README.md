@@ -2,16 +2,16 @@
 ================
 
   * [Taller de "Procesamiento masivo de datos con SparkR"](#taller-de-procesamiento-masivo-de-datos-con-sparkr)    
-    * [Imparte el taller:](#imparte-el-taller)
+    * [Imparte el taller](#imparte-el-taller)
     * [Objetivos](#objetivos)
     * [Contenido](#contenido)
   * [Material del taller](#material-del-taller)
     * [Descarga de la Máquina Virtual VirtualBox: All-in-one](#descarga-de-la-máquina-virtual-virtualbox-all-in-one)
     * [Inicio del entorno de trabajo en la Máquina Virtual](#inicio-del-entorno-de-trabajo-en-la-máquina-virtual)
-    * [Entornos de trabajo disponibles :](#entornos-de-trabajo-disponibles-)
+    * [Entornos de trabajo disponibles](#entornos-de-trabajo-disponibles-)
       * [Jupyter](#jupyter)
       * [RStudio](#rstudio)
-    * [Taller práctico.](#taller-práctico)
+    * [Taller práctico: Unidades de trabajo](#taller-práctico)
 
 
 
