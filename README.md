@@ -1,14 +1,18 @@
 # Taller de "Procesamiento masivo de datos con SparkR"
-=================
+================
 
-   * [Taller de "Procesamiento masivo de datos con SparkR"](#taller-de-procesamiento-masivo-de-datos-con-sparkr)      
-      * [Objetivos](#objetivos)
-      * [Contenidos](#contenido)
-   * [Material del taller. ¿Cómo comenzar?](#material-del-taller)
-      * [Descarga de la Máquina Virtual VirtualBox: All-in-one](#descarga-de-la-máquina-virtual-virtualbox-all-in-one)
-      * [Inicio del entorno de trabajo](#inicio-del-entorno-de-trabajo)
-      * [Instalación de SparkR   extras manualmente para CentOS 7](#instalación-de-sparkr--extras-manualmente-para-centos-7)
-
+* [Taller de "Procesamiento masivo de datos con SparkR"](#taller-de-procesamiento-masivo-de-datos-con-sparkr)
+    * [VIII Jornadas Usuarios de R, Albacete (España) el 17-18 de noviembre de 2016](#viii-jornadas-usuarios-de-r-albacete-españa-el-17-18-de-noviembre-de-2016)
+    * [Imparte el taller:](#imparte-el-taller)
+    * [Objetivos](#objetivos)
+    * [Contenido](#contenido)
+  * [Material del taller](#material-del-taller)
+    * [Descarga de la Máquina Virtual VirtualBox: All-in-one](#descarga-de-la-máquina-virtual-virtualbox-all-in-one)
+    * [Inicio del entorno de trabajo en la Máquina Virtual](#inicio-del-entorno-de-trabajo-en-la-máquina-virtual)
+    * [Entornos de trabajo disponibles :](#entornos-de-trabajo-disponibles-)
+      * [Jupyter](#jupyter)
+      * [RStudio](#rstudio)
+    * [Taller práctico.](#taller-práctico)
 
 
 
