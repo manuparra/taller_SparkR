@@ -171,6 +171,7 @@ library(SparkR)
 
 Puedes empezar el taller práctico tanto desde Jupyter como RStudio, siguiendo los siguientes enlaces a la documentación: 
 
+* Parte 1. Introducción: R, Spark, SparkR
 
 * [Parte 2. S01. Inicio del entorno de trabajo](../../blob/master/Parte%202.%20S01.%20Inicio%20del%20entorno%20de%20trabajo%20con%20SparkR.ipynb)
 
