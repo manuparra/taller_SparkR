@@ -54,7 +54,7 @@ Los objetivos del taller de SparkR son los siguientes:
 
 ## Contenido
 
-En el taller de procesamiento masivo de datos con SparkR vermos lo siguiente:
+En el taller de procesamiento masivo de datos con SparkR veremos lo siguiente:
 
 1.- Introducción al procesamiento de datos masivos.
     Breve introducción al procesamiento de datos, el problema de trabajar con grandes conjuntos de datos, Hadoop,Motivación de Spark, características, etc...<BR>
@@ -167,6 +167,20 @@ library(SparkR)
 ## Taller práctico.
 
 Puedes empezar el taller práctico:
+
+[Inicio del entorno de trabajo](../blob/master/Parte%202.%20S01.%20Inicio%20del%20entorno%20de%20trabajo%20con%20SparkR.ipynb)
+
+[Primer ejemplo con SparkR](../blob/master/Parte%202.%20S02.%20Primer%20ejemplo%20con%20SparkR.ipynb)
+
+[Lectura y Escritura de datos en SparkR](../blob/master/Parte%202.%20S03.%20Lectura%20y%20escritura%20de%20datos%20con%20SparkR.ipynb)
+
+[Operaciones con SparkDataFrames](../blob/master/Parte%202.%20S04.%20Operaciones%20con%20SparkDataFrames.ipynb)
+
+[Minería de datos y Machine Learning con SparkR](../blob/master/Parte%202.%20S05.%20Mineria%20de%20datos%20y%20Machine%20Learning%20con%20SparkR.ipynb)
+
+[Minería de datos y Machine Learning con sparklyr](../blob/master/Parte%202.%20S06.%20Mineria%20de%20datos%20y%20Machine%20Learning%20con%20sparklyr.ipynb)
+
+[Visualización de datos masivos con SparkR y Zeppelin](../blob/master/Parte%202.%20S07.%20Visualizacion%20dinamica%20de%20datos%20con%20SparkR.ipynb)
 
 
 
