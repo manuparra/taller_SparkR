@@ -169,7 +169,7 @@ library(SparkR)
 
 ## Taller práctico.
 
-Puedes empezar el taller práctico tanto desde Jupyter como RStudio, siguiendo los siguientes enlaces a la documentación: 
+Puedes empezar el taller práctico (PARTE 2) tanto desde Jupyter como RStudio, siguiendo los siguientes enlaces a la documentación: 
 
 * Parte 1. Teoría: [Presentación del taller](../../blob/master/Parte%201.%20S00.%20Presentacion%20del%20Taller.ipynb), 
 [Procesamiento masivo de datos](../../blob/master/Parte%201.%20S01.%20Procesamiento%20de%20datos%20masivos.ipynb), 
