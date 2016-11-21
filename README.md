@@ -21,6 +21,25 @@
 ![Jornadas_R_Albacete](https://sites.google.com/site/manuparra/home/jornadas_R_albacete.png)
 
 
+<span style="font-size:2em">Imparte el taller:</span>
+
+
+<img src="https://sites.google.com/site/manuparra/home/manuparra.jpg">
+Manuel Jesús Parra Royón
+
+PhD student. BigData time series data mining.
+
+Departamento de Ciencias de la Computación e Inteligencia Artificial.
+
+Distributed Computational Intelligence and Time Series Laboratory<BR>
+
+Universidad de Granada
+
+<a href="mailto:manuelparra@decsai.ugr.es">manuelparra@decsai.ugr.es</a>  
+
+
+
+
 ## Objetivos
 
 Los objetivos del taller de SparkR son los siguientes:
@@ -35,40 +54,40 @@ Los objetivos del taller de SparkR son los siguientes:
 
 ## Contenido
 
-En el taller de procesamientos masivo de datos con SparkR se va a ver lo siguiente:
+En el taller de procesamiento masivo de datos con SparkR vermos lo siguiente:
 
-* **Introducción al procesamiento de datos masivos**<BR>
+1 **Introducción al procesamiento de datos masivos**<BR>
     Breve introducción al procesamiento de datos, el problema de trabajar con grandes conjuntos de datos, Hadoop,Motivación de Spark, características, etc...<BR>
 
-* **Notas sobre R, Spark y SparkR**<BR>
+2 **Notas sobre R, Spark y SparkR**<BR>
     Introducción a R, motivación de R para datos 'pequeños' y datos 'grandes', Spark y sus características, biblioteca de SparkR para análisis de datos masivos con R.<BR>
 
-* **Instalación de las herramientas necesarias para el taller**<BR>
+3 **Instalación de las herramientas necesarias para el taller**<BR>
     Veremos todas las herramientas necesarias para poder trabajar con el entorno de SparkR, así como la instalación y puesta en marcha de toda la infraestructura necesaria para el taller. Inicio del entorno de trabajo habitual para trabajar en el taller.<BR>
 
-* **Entorno de trabajo del taller**<BR>
+4 **Entorno de trabajo del taller**<BR>
     Detalles del manejo del entorno de trabajo con JupyterNotebooks y Spark + R<BR>
 
-* **Inicio del entorno de trabajo**<BR>
+5 **Inicio del entorno de trabajo**<BR>
     Flujo de trabajo con Spark + R<BR>
 
-* **Primeros pasos con SparkR**<BR>
+6 **Primeros pasos con SparkR**<BR>
     Trabajo con ejemplos de uso de Spark + R <BR>
 
-* **Lectura y Escritura de datos con SparkR**<BR>
+7 **Lectura y Escritura de datos con SparkR**<BR>
     Trabajo con fuentes de datos, y tipos de conjuntos de datos, CSV, JSON, Parquet, ... Lectura y Escritura. Esquemas, y breve trabajo con SparkSQL. <BR>
 
-* **Operaciones y procesado de SparkDataFrames**<BR>
+8 **Operaciones y procesado de SparkDataFrames**<BR>
     Trabajamos y procesamos conjuntos de datos masivos con SparkSQL y funciones de agregación, filtrado, selección, etc. Usamos flujos de trabajo con magrittr. Revisamos la funcionalidad completa de la biblioteca de SparkR.<BR>
 
-* **Minería de datos con la biblioteca de SparkR**<BR>
+9 **Minería de datos con la biblioteca de SparkR**<BR>
     Aplicamos las técnicas de minería de datos y Machine Learning que proporciona SparkR: GLM, KMeans, NaiveBayes y AFT.<BR>
 
-* **Minería de datos con la biblioteca sparklyr**<BR>
+10 **Minería de datos con la biblioteca sparklyr**<BR>
     Utilizamos la funcionalidad de la biblioteca ``sparklyr`` para procesar conjuntos de datos. Aplicamos los métodos de minería de datos y otras operaciones.<BR>
 
-* **Visualización de datos**<BR>
-    Visualización con la herramienta de experimentación reproducible Zeppelin (beta)
+11 **Visualización de datos**<BR>
+    Visualización de datos masivos con la herramienta Zeppelin (beta) y ``spark.ggplot2``.
 
 # Material del taller
 
@@ -93,7 +112,7 @@ Los datos de acceso a la Máquina Virtual son:
 * Compatible con Windows, Mac OSX y Linux
 
 
-## Inicio del entorno de trabajo
+## Inicio del entorno de trabajo en la Máquina Virtual
 
 Tanto si te descagas la Máquina virtual, como si instalas todo manualmente, es necesario ejecutar los siguientes comandos dentro de la Máquina Virtual antes de trabajar en el taller:
 
@@ -123,7 +142,7 @@ Para usar SparkR desde Jupyter Notebooks, accede desde tu navegador a:
 
 Para usar SparkR desde RStudio, accede desde tu navegador a:
 
-  http://localhost:8787
+>   http://localhost:8787
 
 El usuario por defecto es: ```test``` y la clave: ```test```
 
@@ -131,9 +150,9 @@ El usuario por defecto es: ```test``` y la clave: ```test```
 
 Para trabajar con SparkR desde RStudio, es necesario indicar al principio de los scripts en R:
 
-  # Biblioteca y ruta absoluta a SparkR
-  .libPaths(c(file.path("/usr/local/spark/","R/lib/"),.libPaths()))
-  library(SparkR)
+>   # Biblioteca y ruta absoluta a SparkR
+>   .libPaths(c(file.path("/usr/local/spark/","R/lib/"),.libPaths()))
+>   library(SparkR)
 
 ## Taller práctico.
 
