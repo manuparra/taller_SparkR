@@ -26,7 +26,7 @@
 
 <img src="https://sites.google.com/site/manuparra/home/manuparra.jpg">
 
-Manuel Jesús Parra Royón
+Manuel Jesús Parra Royón  <a href="mailto:manuelparra@decsai.ugr.es">manuelparra@decsai.ugr.es</a>  
 
 PhD student. BigData time series data mining.
 
@@ -36,7 +36,6 @@ PhD student. BigData time series data mining.
 
 <a href="http://www.ugr.es">Universidad de Granada</a>
 
-<a href="mailto:manuelparra@decsai.ugr.es">manuelparra@decsai.ugr.es</a>  
 
 
 
@@ -57,7 +56,7 @@ Los objetivos del taller de SparkR son los siguientes:
 
 En el taller de procesamiento masivo de datos con SparkR vermos lo siguiente:
 
-1 **Introducción al procesamiento de datos masivos**<BR>
+1 <span style="font-weight: bold;">Introducción al procesamiento de datos masivos</span><BR>
     Breve introducción al procesamiento de datos, el problema de trabajar con grandes conjuntos de datos, Hadoop,Motivación de Spark, características, etc...<BR>
 
 2 **Notas sobre R, Spark y SparkR**<BR>
