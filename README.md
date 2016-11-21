@@ -171,7 +171,7 @@ library(SparkR)
 
 Puedes empezar el taller práctico tanto desde Jupyter como RStudio, siguiendo los siguientes enlaces a la documentación: 
 
-* Parte 1. [Presentación del taller](../../blob/master/Parte%201.%20S00.%20Presentacion%20del%20Taller.ipynb), 
+* Parte 1. Teoría: [Presentación del taller](../../blob/master/Parte%201.%20S00.%20Presentacion%20del%20Taller.ipynb), 
 [Procesamiento masivo de datos](../../blob/master/Parte%201.%20S01.%20Procesamiento%20de%20datos%20masivos.ipynb), 
 [R+Spark+SparkR](../../blob/master/Parte%201.%20S02.%20R%20%2B%20Spark%20%2B%20Datos%20Masivos.ipynb), 
 [Instalación de las herramientas](../../blob/master/Parte%201.%20S03.%20Instalacion%20de%20las%20herramientas%20para%20el%20Taller%20de%20SparkR.ipynb), 
